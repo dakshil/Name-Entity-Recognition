@@ -1,4 +1,12 @@
-import subprocess
+#!/usr/bin/env python
+#title           :NER.py
+#description     :Train and create dmemm model with evaluation.
+#author          :Dakshil Shah
+#usage           :python NER.py
+#notes           : python 2.7, with pytorch 
+#==============================================================================
+
+# Import the modules needed to run the script.import subprocess
 import argparse
 import sys
 import gzip
